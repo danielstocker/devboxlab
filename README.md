@@ -19,7 +19,7 @@ The three personas we cover are:
 
   - [Optional Step: Disable multi-factor authentication in your tenant](#optional-step-disable-multi-factor-authentication-in-your-tenant)
 
-- [Lab 1 -- IT Admin Persona](#lab-1-it-admin-persona)
+- [Lab 1 - IT Admin Persona](#lab-1-it-admin-persona)
 
   - [Create base resources](#create-base-resources)
 
@@ -39,17 +39,17 @@ The three personas we cover are:
 
   - [Assign permissions to the other two personas](#assign-permissions-to-the-other-two-personas)
 
-- [Lab 2 -- Development Manager Persona](#lab-2-development-manager-persona)
+- [Lab 2 - Development Manager Persona](#lab-2-development-manager-persona)
 
-- [Lab 3 -- Developer Persona](#lab-3-developer-persona)
+- [Lab 3 - Developer Persona](#lab-3-developer-persona)
 
   - [Create a Dev Box](#create-a-dev-box)
 
   - [Use a Dev Box for a simple deployment with Visual Studio](#use-a-dev-box-for-a-simple-deployment-with-visual-studio)
 
-- [Lab 4 -- Clean-Up](#lab-4-clean-up)
+- [Lab 4 - Clean-Up](#lab-4-clean-up)
 
-- [Lab 5 -- Already finished? Optional Bonus activities!](#lab-5-already-finished-optional-bonus-activities)
+- [Lab 5 - Already finished? Optional Bonus activities!](#lab-5-already-finished-optional-bonus-activities)
 
 # Pre-lab setup
 
@@ -108,7 +108,7 @@ Please work through the below steps before starting the first lab.
 To make your experience during the lab smoother you may choose to temporarily disable multi-factor authentication. 
 *If your tenant is newly set up, you can also skip the multi-factor setup activity for your user accounts temporarily.*
 
-If you are hosting services other than this lab in your tenant, please consider the risks of disabling multi-factor authentication -- even temporarily -- before moving forward with this.
+If you are hosting services other than this lab in your tenant, please consider the risks of disabling multi-factor authentication - even temporarily - before moving forward with this.
 
 We recommend re-enabling multi-factor authentication after you have completed the labs and only disabling it during demos if the number of prompts is disruptive.
 
@@ -124,7 +124,7 @@ Once again: **Please familiarize yourself with the risks of taking this step.**
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px; display: block;"><img src="./media/image5.png" height="75%" /></div>
 
-# Lab 1 -- IT Admin Persona
+# Lab 1 - IT Admin Persona
 
 Please perform the following steps as your **global administrator account**.\
 The steps in this lab will take you about 45 minutes to 1 hour to complete.
@@ -238,7 +238,7 @@ In this section we will run through the **basic steps to capture a custom image*
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px; display: block;"><img src="./media/image15.png" width="15%" /></div>
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px; display: block;"><img src="./media/image16.png" width="65%" /></div>
 
--   In the drop down menu that appears select **"Visual Studio 22 Enterprise on Windows 11 Enterprise N (x64) -- x64 Gen 2"**
+-   In the drop down menu that appears select **"Visual Studio 22 Enterprise on Windows 11 Enterprise N (x64) - x64 Gen 2"**
 -   Selecting the image will bring you back to the previous screen.
 -   Make the following selections:
     -   Deploy to a new resource group that is different from the ones you used before. You can call it **"Image-Capture"**
@@ -444,7 +444,7 @@ Once the project is created, we need to assign roles to it.
 
 -   **Return to the "DevCenter-Core" resource group** in the Azure Portal and select **the newly created project resource**.
 
--   You can either select the **"Set project access -- Edit access"** button on the **"Overview"** blade or select **"Access Control (IAM)"** in the side bar.
+-   You can either select the **"Set project access - Edit access"** button on the **"Overview"** blade or select **"Access Control (IAM)"** in the side bar.
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px; display: block;"><img src="./media/image38.png" width="75%" /></div>
 
@@ -476,7 +476,7 @@ completed, but this time...
 
 This lab is now complete.
 
-# Lab 2 -- Development Manager Persona
+# Lab 2 - Development Manager Persona
 
 The steps in this lab will take you about 15 minutes to complete.
 
@@ -497,7 +497,7 @@ We recommend that you remain logged in as the Admin account in your main browser
 -   Complete this process twice for two definitions. See the next page for a sample screenshot.
 
 |                            | Definition 1                                       | Definition 2                                       |
-|----------------------------|----------------------------------------------------|----------------------------------------------------|
+|--------------|--------------------------|--------------------------|
 | Name                       | m365box                                            | devbox                                             |
 | Definition                 | standard                                           | custom                                             |
 | Network Connection         | the network connection created in the previous lab | the network connection created in the previous lab |
@@ -516,7 +516,7 @@ We recommend that you remain logged in as the Admin account in your main browser
 
 This lab is now complete.
 
-# Lab 3 -- Developer Persona
+# Lab 3 - Developer Persona
 
 The steps in this lab will take you about 20 minutes to complete. This
 excludes the time that it takes to provision the Dev Box instances which
@@ -607,7 +607,7 @@ deployment from Visual Studio.
 
 This lab is now complete.
 
-# Lab 4 -- Clean-Up
+# Lab 4 - Clean-Up
 
 To avoid any unexpected charges, **ensure that your dev boxes are deleted** if you are not using them for
 a while.
@@ -618,13 +618,19 @@ If you would like to keep resources deployed, ensure that you **stop the Dev Box
 
 Thank you for completing the lab!
 
-# Lab 5 -- Already finished? Optional Bonus activities!
+# Lab 5 - Already finished? Optional Bonus activities!
 
--   App Templates can help you quickly deploy a specific solution including demo code to an Azure environment from a GitHub repo.
-    -   Using App Templates with Microsoft Dev Box allows you to demo the end-to-end developer experience as well as the Azure deployment.
-    -   Try deploying an App Template and pulling its code repo in a dev box with Visual Studio installed. 
-    
+## Try App Templates
+
+App Templates can help you quickly deploy a specific solution including demo code to an Azure environment from a GitHub repo.
+
+-   Using App Templates with Microsoft Dev Box allows you to demo the end-to-end developer experience as well as the Azure deployment.
+-   Try deploying an App Template and pulling its code repo in a dev box with Visual Studio installed.   
+
 <https://github.com/microsoft/App-Templates>
 
--   During this lab we performed most actions in the user interface, butthat doesn't mean that the provisioning of a Microsoft Dev Box environment can't be automated.
-    -  Follow the instructions here to provision a Dev Box environment from scratch using Bicep: [ljtill/bicep-devbox: Microsoft Dev Box platform built with Azure Bicep including GitHub Actions workflows](https://github.com/ljtill/bicep-devbox/)
+## Try Infrastructure as Code
+
+During this lab we performed most actions in the user interface, but that doesn't mean that the provisioning of a Microsoft Dev Box environment can't be automated.
+
+Follow the instructions here to provision a Dev Box environment from scratch using Bicep: [ljtill/bicep-devbox: Microsoft Dev Box platform built with Azure Bicep including GitHub Actions workflows](https://github.com/ljtill/bicep-devbox/)
