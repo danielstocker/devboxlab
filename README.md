@@ -17,8 +17,6 @@ The three personas we cover are:
 
   - [Designate your user accounts for this and future labs](#designate-your-user-accounts-for-this-and-future-labs)
 
-  - [Optional Step: Disable multi-factor authentication in your tenant](#optional-step-disable-multi-factor-authentication-in-your-tenant)
-
 - [Lab 1 - IT Admin Persona](#lab-1-it-admin-persona)
 
   - [Create base resources](#create-base-resources)
@@ -54,6 +52,7 @@ The three personas we cover are:
 # Pre-lab setup
 
 The steps in this lab guide assume that you have access to an **M365 tenant** with **Microsoft E5 developer** licenses (or equivalent) provisioned.
+
 The lab guide also assumes that your tenant contains at least one **Azure Subscription where you are the owner**. 
 In some places the lab guide assumes that you have provisioned a set of M365 demo accounts. This is not necessary but encouraged to make it easier to follow the instructions.
 
@@ -102,27 +101,6 @@ Please work through the below steps before starting the first lab.
 
 > **Note:**
 > We do not recommend writing passwords down in a digital plaintext format in production scenarios. We are doing it here to optimize the speed at which you can move through the lab activities.
-
-## Optional Step: Disable multi-factor authentication in your tenant
-
-To make your experience during the lab smoother you may choose to temporarily disable multi-factor authentication. 
-*If your tenant is newly set up, you can also skip the multi-factor setup activity for your user accounts temporarily.*
-
-If you are hosting services other than this lab in your tenant, please consider the risks of disabling multi-factor authentication - even temporarily - before moving forward with this.
-
-We recommend re-enabling multi-factor authentication after you have completed the labs and only disabling it during demos if the number of prompts is disruptive.
-
-Once again: **Please familiarize yourself with the risks of taking this step.**
-
--   Log into the Azure Portal as the "Admin Account"
-
--   Go to \"Azure Active Directory\"
-
--   Select Properties \> Manage security defaults
-
--   When prompted to \"Enable security default\" select \"No\" and respond to the prompts if any appear.
-
-<div style="text-align: center; margin-top: 10px; margin-bottom: 10px; display: block;"><img src="./media/image5.png" height="75%" /></div>
 
 # Lab 1 - IT Admin Persona
 
