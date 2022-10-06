@@ -482,7 +482,7 @@ We recommend that you remain logged in as the Admin account in your main browser
 | Dev Box Creator Privileges | Local Admin                                        | Local Admin                                        |
 | Licensing                  | [x]                                                | [x]                                                |
 
-**Regarding licensing:** If you have a Visual Studio subscription then your E5 Developer benefits cover a certain amount of Windows client licenses that you can utilize with Dev Box. We recommend exploring the **"Learn more about dev box licensing requirements"** link in the "Create" menu while you are waiting for your dev box definitions to validate.
+We recommend exploring the **"Learn more about dev box licensing requirements"** link in the "Create" menu while you are waiting for your dev box definitions to validate.
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px; display: block;"><img src="./media/image43.png" width="50%" /></div>
 
