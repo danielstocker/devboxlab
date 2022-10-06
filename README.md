@@ -51,7 +51,7 @@ The three personas we cover are:
 
 # Pre-lab setup
 
-The steps in this lab guide assume that you have access to an **M365 tenant** with **Microsoft E5 developer** licenses (or equivalent) provisioned.
+The steps in this lab guide assume that you have access to an **M365 tenant** with **Microsoft E5 licenses** (or equivalent) provisioned.
 
 The lab guide also assumes that your tenant contains at least one **Azure Subscription where you are the owner**. 
 In some places the lab guide assumes that you have provisioned a set of M365 demo accounts. This is not necessary but encouraged to make it easier to follow the instructions.
