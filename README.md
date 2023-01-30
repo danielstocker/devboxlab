@@ -217,6 +217,7 @@ In this section we will run through the **basic steps to capture a custom image*
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px; display: block;"><img src="./media/image16.png" width="65%" /></div>
 
 -   In the drop down menu that appears select **"Visual Studio 22 Enterprise on Windows 11 Enterprise N (x64) - x64 Gen 2"**
+> **Note:** Make sure you select the x64 Gen 2 flavour of the image and not x64 Gen 1, otherwise you will run into issues later in the lab.
 -   Selecting the image will bring you back to the previous screen.
 -   Make the following selections:
     -   Deploy to a new resource group that is different from the ones you used before. You can call it **"Image-Capture"**
