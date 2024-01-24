@@ -427,9 +427,11 @@ Once the project is created, we need to assign roles to it.
 
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px; display: block;"><img src="./media/image38.png" width="75%" /></div>
 
--   Assign the "Development Manager" (Adele) the **"DevCenter Project Admin"** role and the **"Reader"** role by going to the **"Role Assignment"** tab and picking the roles and then selecting her user identity. You can use Option 1 or 2 to access the assignment screens.
-
+-   Assign the "Development Manager" (Adele) the **"DevCenter Project Admin"** role and the **"Owner"** role by going to the **"Role Assignment"** tab and picking the roles and then selecting her user identity. You can use Option 1 or 2 to access the assignment screens.
 <div style="text-align: center; margin-top: 10px; margin-bottom: 10px; display: block;"><img src="./media/image39.png" width="75%" /></div>
+
+**Note**: The reason why we add the "**Owner**" role here is to allow the "Development Manager (Adele)" to add a developer in the team to a Dev Box Project as a "dev box user" role.  [Here](https://learn.microsoft.com/en-us/azure/dev-box/how-to-manage-dev-box-projects#permissions) is the reference to the permissions required to manage a dev box project.
+<div style="text-align: center; margin-top: 10px; margin-bottom: 10px; display: block;"><img src="./media/image58.png" width="75%" /></div>
 
 -   Follow the same steps to give the "Developer" (Alex) the **"DevCenter Dev Box User"** role and the **"Reader"** role on the project resource.
 
